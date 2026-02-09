@@ -8,17 +8,20 @@ using namespace std;
 
 int main() {
     // TODO: Declare variable for Fahrenheit temperature
-    
+    float temperatureInCelsius, temperatureInFahrenheit;
+
     
     // TODO: Ask user for temperature in Fahrenheit
-    cout << "===== Temperature Converter =====" << endl;
+    cout << "Enter temperature in Fahrenheit" << endl;
     
-    
+    cin >> temperatureInFahrenheit ;
+
     // TODO: Calculate Celsius using the formula: C = (F - 32) * 5/9
-    
+    temperatureInCelsius = ( temperatureInFahrenheit - 32 ) * 5/9;
     
     // TODO: Display both temperatures
-    
+    cout << " Temperature in Celsius is : " << temperatureInCelsius ;
+   
     
     return 0;
 }
