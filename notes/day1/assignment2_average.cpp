@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
     // TODO: Declare variables for five numbers and their average
-    
+    float num1 , Average ;
     
     // TODO: Ask user to enter five numbers
     cout << "===== Average Calculator =====" << endl;
